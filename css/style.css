@@ -1,0 +1,71 @@
+/*Styling for our page*/
+/*Styling for body*/
+body {
+    font-family:cursive;
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+}
+/*Main Heading Styling*/
+h1 {
+    text-align: center;
+    color:firebrick;
+    margin-top: 20px;
+}
+/*Styling our form*/
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(8, 8, 8, 0.1);
+}
+/*Now for labels*/
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+select,
+input[type="number"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+/*Order Button*/
+button {
+    width: 100%;
+    background-color: #2ca548;
+    color: #ffffff;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+/*Hover effect on button*/
+button:hover {
+    background-color:blueviolet;
+}
+
+#pizzaOrderDescription {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f8d7da;
+    border-radius: 5px;
+    color: maroon;
+}
+/*Styling for Student Details*/
+#studentInfo {
+    text-align: center;
+    font-style: italic;
+    margin-top: 18px;
+    color:crimson;
+}
